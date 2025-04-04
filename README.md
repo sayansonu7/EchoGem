@@ -1,58 +1,56 @@
-# AI Academic Assistant Chatbot
+# Academic Assistant Chatbot
 
-A web-based chatbot built with Next.js and OpenAI's GPT API to assist students with course recommendations, answer academic queries, and provide real-time guidance.
+A web-based chatbot built with Next.js and Google's Gemini API to assist students with course recommendations, answer academic queries, and provide real-time guidance.
 
 ## Features
 
-- Real-time chat interface
-- Integration with OpenAI's GPT-3.5 Turbo
-- Responsive design for desktop and mobile
-- Customizable system prompts for academic contexts
+- Modern UI with Tailwind CSS
+- Integration with Google's Gemini Pro model
+- Real-time chat experience
+- Responsive design for all devices
+- Academic-focused assistance
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js 18+
-- An OpenAI API key
+- Node.js (version 16 or higher)
+- npm or yarn
+- A Gemini API key (free)
 
 ### Installation
 
-1. Clone the repository
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Create a `.env.local` file in the root directory and add your OpenAI API key:
-   ```
-   OPENAI_API_KEY=your_openai_api_key_here
-   ```
+1. Clone the repository:
 
-### Running the Development Server
+```bash
+git clone https://github.com/yourusername/academic-assistant-chatbot.git
+cd academic-assistant-chatbot
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Create a `.env.local` file in the root directory and add your Gemini API key:
+
+```
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Then, open [http://localhost:3000](http://localhost:3000) in your browser.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Deployment
+## Usage
 
-This application can be easily deployed to Vercel:
-
-```bash
-npm run build
-npm run start
-```
-
-## Customizing for Your Academic System
-
-To adapt this chatbot for your specific academic management system:
-
-1. Modify the system prompt in `ChatContainer.tsx` to include specific details about your courses, policies, or academic information
-2. Add academic-specific entities and queries to the AI prompt
-3. Integrate with your existing academic management system API if needed
+Type your academic questions in the chat input at the bottom of the screen and press Enter or click Send. The AI will respond with helpful information about courses, study tips, and academic guidance.
 
 ## License
 
-MIT
+[MIT](https://choosealicense.com/licenses/mit/)
