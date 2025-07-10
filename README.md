@@ -8,7 +8,7 @@ A web-based chatbot built with Next.js and Google's Gemini API to assist student
 - Integration with Google's Gemini Pro model
 - Real-time chat experience
 - Responsive design for all devices
-- Academic-focused assistance
+
 
 ## Getting Started
 
