@@ -1,6 +1,6 @@
 #Chatbot
 
-A web-based chatbot built with Next.js and Google's Gemini API to assist students with course recommendations, answer academic queries, and provide real-time guidance.
+A web-based chatbot built with Next.js and Google's Gemini API to assist people with their Problems and queries.
 
 ## Features
 
