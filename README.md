@@ -49,7 +49,7 @@ npm run dev
 
 ## Usage
 
-Type your academic questions in the chat input at the bottom of the screen and press Enter or click Send. The AI will respond with helpful information about courses, study tips, and academic guidance.
+Type your academic questions in the chat input at the bottom of the screen and press Enter or click Send. The AI will respond accordingly.
 
 ## License
 
