@@ -14,10 +14,10 @@ export default function Home() {
       <div className="w-full max-w-5xl">
         <div className="mb-8 text-center">
           <h1 className="text-3xl md:text-4xl font-bold mb-3 text-gray-900 dark:text-white">
-            AI Academic Assistant
+            AI Chatbot
           </h1>
           <p className="text-gray-600 dark:text-gray-300">
-            Your personal assistant for academic guidance and support
+            Your personal assistant for Daily needs
           </p>
         </div>
 
@@ -27,8 +27,7 @@ export default function Home() {
 
         <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400">
           <p>
-            This AI assistant can help with course recommendations, answer
-            academic queries, and provide guidance for students.
+            This AI assistant can help resolving Daily quiries, planning next steps of life.
           </p>
         </div>
       </div>
