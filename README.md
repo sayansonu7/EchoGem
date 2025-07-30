@@ -5,7 +5,7 @@ A web-based chatbot built with Next.js and Google's Gemini API to assist people 
 ## Features
 
 - Modern UI with Tailwind CSS
-- Integration with Google's Gemini Pro model
+- Integration with Google's Gemini model
 - Real-time chat experience
 - Responsive design for all devices
 
