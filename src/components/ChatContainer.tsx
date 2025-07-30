@@ -116,7 +116,8 @@ const ChatContainer: React.FC = () => {
   return (
     <div className="flex flex-col h-full max-w-3xl mx-auto border rounded-lg shadow-lg bg-white">
       <div className="p-4 bg-blue-600 text-white rounded-t-lg">
-        <h2 className="text-xl font-bold">Academic Assistant</h2>
+        <h2 className="text-xl font-bold">A
+        AI Chatbot</h2>
       </div>
 
       <div
